@@ -1,18 +1,30 @@
-@import url('https://fonts.googleapis.com/css?family=Josefin+Sans|Signika');
-@import url('https://fonts.googleapis.com/css?family=Francois+One');
+@import url('https://fonts.googleapis.com/css?family=Rokkitt');
+@import url('https://fonts.googleapis.com/css?family=Alegreya+Sans+SC:900');
+@import url('https://fonts.googleapis.com/css?family=Tinos');
+@import url('https://fonts.googleapis.com/css?family=Amiri');
+
 
 body {
-  background-color: #3498DB;
+  background-color: #23A5D4;
 }
 
 h1 {
-  font-family: 'Francois One', sans-serif;
+  font-family: 'Alegreya Sans SC', sans-serif;
   font-size: 3.8em;
 }
 
 h2 {
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Alegreya Sans SC', sans-serif;
   font-size: 3em;
+}
+
+p {
+  font-family: 'Amiri', serif;
+  font-size: 1.1em;
+}
+
+ul {
+  font-family: 'Amiri', serif;
 }
 
 .bg-color {
@@ -32,7 +44,7 @@ a:visited {
 }
 
 #social {
-  background-color: #3498DB;
+  background-color: #2980B9;
 }
 
 .jumbotron {
@@ -42,6 +54,16 @@ a:visited {
   display:flex;
   align-items: center;
   color: white;
+}
+
+.jumbotron h1 {
+  font-size: 5.3em;
+  font-style: bold;
+}
+
+.jumbotron p {
+  font-size: 1.7em;
+  font-style: bold;
 }
 
 .jumbotron img{
@@ -70,7 +92,7 @@ a:visited {
 }
 
 .social i {
-  padding: 20px;
+  padding: 20px 10px 20px 10px;
 }
 
 .social i:hover {
@@ -97,7 +119,7 @@ a:visited {
 
 #about {
   padding: 75px;
-  background-color: #3498DB;
+  background-color: #23A5D4;
 }
 
 .center-block {
@@ -123,6 +145,10 @@ a:visited {
 #skills h1 {
  text-align: center;
  padding-bottom: 20px;
+}
+
+#skills li {
+  font-family: 'Tinos', serif;
 }
 
 #skills .row {
@@ -168,7 +194,7 @@ a:visited {
 }
 
 #footer {
-  background-color: #3498DB;
+  background-color: #2980B9;
   padding-top: 5%;
   padding-bottom: 10px;
 }
