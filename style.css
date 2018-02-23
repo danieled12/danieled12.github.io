@@ -56,12 +56,18 @@ a:visited {
 }
 
 .jumbotron h1 {
-  font-size: 5.3em;
+  font-size: 9vh;
   font-style: bold;
 }
 
+@media (max-width: @screen-sm) {
+    .jumbotron h1 {
+      font-size: 4em;
+    }
+}
+
 .jumbotron p {
-  font-size: 1.7em;
+  font-size: 3vh;
   font-style: bold;
 }
 
