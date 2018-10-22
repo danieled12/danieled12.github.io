@@ -11,8 +11,8 @@
 
 <body>
 
-<nav class="navbar navbar-expand-lg navbar-dark bg-color fixed-top"><!-- Start of navbar class-->
-  <a class="navbar-brand" href="#">Daniele's Designs</a>
+<nav class="navbar navbar-expand-lg navbar-dark bg-color"><!-- Start of navbar class-->
+  <a class="navbar-brand" href="index.html">Daniele's Designs</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -20,7 +20,7 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item active">
-          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
         </li>
 
         <li class="nav-item">
@@ -32,66 +32,49 @@
   </div><!-- container -->
 </nav><!-- End of navbar -->
 
-<div class="jumbotron vertical-center"><!-- Start of Jumbotron -->
-  <div class="container text-center">
-    <div class="col-12">
-      <h1 class="display-3">Daniele de Gruttola</h1>
-        <p class="lead">Let's build something great together!</p>
-    </div>
-      <div class="text-center btnDiv">
-        <a href="#samples"><i class="fas fa-angle-double-down fa-3x"></i></a>
-      </div>
-  </div><!-- container -->
-</div><!--End of Jumbotron id -->
-
-<div id="samples">
+<div id="samples_info">
   <div class="container">
     <div class="row justify-content-center">
       <div class="text-white">
 
-        <h1 class ="text-center">Web Design / Social Media</h1>
+        <h1 class ="text-center" id="h1_info">Party Pods Website</h1>
           <div class="content photo-grid">
+            <h2 class="text-left" id="h2_obj">Objective:</h2>
+              <p class ="text-left" id="objective">Create a clean looking website for people to browse and buy balloons.</p>
+            <h2 class="text-left" id ="h2_aud">Audience:</h2>
+              <p class ="text-left" id="audience">Adults looking to buy balloons for business or parties.</p>
+            <h2 class="text-left" id="h2_soft">Software Used:</h2>
+              <p class ="text-left" id="software_used">WordPress and Adobe Photoshop. </p>
+              <h2 class="text-left" id="h2_tech">Techniques Used:</h2>
+                <p class ="text-left" id="techniques_used"> Creating the layout with the WordPress and adding in different plugins and templates. Using Photoshop to mask and create the inventory of balloons. Coding and adjusting the product designer where you can view the different balloons in certain layouts. </p>
 
+          <h1 class ="text-center" id="h1_example">Example:</h1>
             <div class="container py-4">
               <div class="row">
-                <a class="col-md-6 col-lg-6" data-target="#dental" href="dental.html"><img class="img-fluid mb-3" src="images/dental.jpg" alt="Dental Website"></a>
-                <a class="col-md-6 col-lg-6" data-target="#kreschop" href="kreschop.html"><img class="img-fluid mb-3" src="images/kreschop.jpg" alt="Kreschop Website"></a>
-                <a class="col-md-6 col-lg-6" data-target="#merrymaids" href="merrymaids.html"><img class="img-fluid mb-3" src="images/merrymaids.jpg" alt="Merrymaids Website"></a>
-                <a class="col-md-6 col-lg-6" data-target="#trivia" href="trivia.html"><img class="img-fluid mb-3" src="images/trivia.jpg" alt="Trivia Website"></a>
-                <a class="col-md-6 col-lg-6" data-target="#partypods" href="partypods.html"><img class="img-fluid mb-3" src="images/partypods.jpg" alt="Partypods Website"></a>
-                <a class="col-md-6 col-lg-6" data-target="#movie" href="movie.html"><img class="img-fluid mb-3" src="images/movie.jpg" alt="Movie Search Website"></a>
-                <a class="col-md-6 col-lg-6" data-target="#resort" href="resort.html"><img class="img-fluid mb-3" src="images/resort.jpg" alt="Dans Resort Animation"></a>
-                <a class="col-md-6 col-lg-6" data-target="#ski_resort" href="ski.html"><img class="img-fluid mb-3" src="images/ski_resort.jpg" alt="Ski Resort Banner"></a>
-                <a class="col-md-6 col-lg-6" data-target="#geometry" href="geometry.html"><img class="img-fluid mb-3" src="images/geometry.jpg" alt="Geometry Background Design"></a>
-
+                <a class="col-12" data-toggle="modal" data-target="#partypods" href=""><img class="img-fluid mb-3" src="images/partypods2.jpg" alt="Party Pods Website"></a>
               </div>
             </div>
+
+            <div class="modal fade" id="partypods">
+              <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                  <img data-dismiss="modal" class="img-fluid" src="images/partypods2.jpg" alt="Party Pods Website">
+                </div>
+              </div>
+            </div>
+
+        <h1 class ="text-center" id="h1_mockup">Mockup:</h1>
+        <div class="container py-4">
+          <div class="row">
+            <a class="col-12" data-toggle="modal" data-target="#partymock" href=""><img class="img-fluid mb-3" src="images/partymock.jpg" alt="Party Pods Website"></a>
           </div>
+        </div>
 
-            <h1 class ="text-center">Graphic Design / Photoshop</h1>
-              <div class="content photo-grid">
-
-                <div class="container py-4">
-                  <div class="row">
-
-                    <a class="col-md-6 col-lg-6" data-target="#gamecover" href="gamecover.html"><img class="img-fluid mb-3" src="images/gamecover.jpg" alt="Gamecover Design"></a>
-                    <a class="col-md-6 col-lg-6" data-target="#volunteer" href="volunteer.html"><img class="img-fluid mb-3" src="images/volunteer.jpg" alt="Volunteer Poster"></a>
-                    <a class="col-md-6 col-lg-6" data-target="#footware" href="footware.html"><img class="img-fluid mb-3" src="images/footware.jpg" alt="Freedom Footware Poster"></a>
-                    <a class="col-md-6 col-lg-6" data-target="#abducted" href="abducted.html"><img class="img-fluid mb-3" src="images/abducted.jpg" alt="Abducted Poster"></a>
-                  </div>
-                </div>
-                </div>
-            <h1 class ="text-center">Graphic Design / Illustrator</h1>
-              <div class="content photo-grid">
-
-                <div class="container py-4">
-                  <div class="row">
-
-                    <a class="col-md-6 col-lg-6" data-target="#music" href="music.html"><img class="img-fluid mb-3" src="images/music.jpg" alt="Orlando Music Poster"></a>
-                    <a class="col-md-6 col-lg-6" data-target="#bag" href="bag.html"><img class="img-fluid mb-3" src="images/bag.png" alt="Bag Mock Up"></a>
-                    <a class="col-md-6 col-lg-6" data-target="#streetcorner" href="streetcorner.html"><img class="img-fluid mb-3" src="images/streetcorner.jpg" alt="Streetcorner graphic"></a>
-
-
+        <div class="modal fade" id="partymock">
+          <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+              <img data-dismiss="modal" class="img-fluid" src="images/partymock.jpg" alt="Party Pods Website">
+            </div>
           </div>
         </div>
 
@@ -218,11 +201,12 @@
             </div>
           </div>
         </div> -->
-</div>
-</div>
-</div>
+
       </div><!-- photo-grid -->
     </div><!-- white text -->
+  </div><!-- row -->
+</div><!-- container -->
+</div><!-- End of samples id -->
 
 <div id="social"><!--Start of Social id-->
   <div class="container">

@@ -2,10 +2,16 @@
 @import url('https://fonts.googleapis.com/css?family=Amiri');
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans');
 @import url('https://fonts.googleapis.com/css?family=Nunito+Sans');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
+@import url('https://fonts.googleapis.com/css?family=PT+Sans');
+@import url('https://fonts.googleapis.com/css?family=Francois+One');
 
+html {
+  
+}
 
 body {
-  background-color: #23A5D4;
+  background-color:;
 }
 
 h1 {
@@ -13,14 +19,70 @@ h1 {
   font-size: 3.8em;
 }
 
+#h1_info {
+  font-family: 'Alegreya Sans SC', sans-serif;
+  font-size: 4.5em;
+  padding-bottom: 30px;
+}
+
 h2 {
   font-family: 'Alegreya Sans SC', sans-serif;
-  font-size: 3em;
+  font-size: 2.8em;
+}
+
+#h2_obj {
+  padding: 0px 30px 30px 30px;
+  font-family: 'Francois One', sans-serif;
+  font-size: 2.2em;
+}
+
+#h2_aud {
+  padding: 30px;
+  font-family: 'Francois One', sans-serif;
+  font-size: 2.2em;
+}
+
+#h2_soft {
+  padding: 30px;
+  font-family: 'Francois One', sans-serif;
+  font-size: 2.2em;
+}
+
+#h2_tech {
+  padding: 30px;
+  font-family: 'Francois One', sans-serif;
+  font-size: 2.2em;
+}
+
+#h2_website {
+  padding: 30px;
+  font-family: 'Francois One', sans-serif;
+  font-size: 2.2em;
 }
 
 p {
   font-family: 'Amiri', serif;
   font-size: 1.1em;
+}
+
+#objective {
+  font-size: 1.3em;
+}
+
+#audience {
+  font-size: 1.3em;
+}
+
+#software_used {
+  font-size: 1.3em;
+}
+
+#techniques_used {
+  font-size: 1.3em;
+}
+
+#website {
+  font-size: 1.3em;
 }
 
 ul {
@@ -53,11 +115,10 @@ a:visited {
 }
 
 #social {
-  background-color: #2980B9;
+  background-color: #23A5D4;
 }
 
 .jumbotron {
-  background-color: #2980B9;
   background-image: url("images/main2.jpg");
   background-size: cover;
   display:flex;
@@ -72,9 +133,10 @@ a:visited {
 
 @media (max-width: @screen-sm) {
     .jumbotron h1 {
-      font-size: 4em;
+      font-size: 7vh;
     }
 }
+
 
 .jumbotron p {
   font-size: 3vh;
@@ -134,7 +196,7 @@ a:visited {
 
 #about {
   padding: 75px;
-  background-color: #23A5D4;
+  background-color: #2980B9;
 }
 
 .center-block {
@@ -143,10 +205,6 @@ a:visited {
     padding-bottom: 50px;
 }
 
-#software {
-  padding-top: 60px;
-  background-color: #E76659;
-}
 
 .software_icons {
   padding-bottom: 70px;
@@ -180,6 +238,11 @@ a:visited {
   background-color: #2C3E50;
 }
 
+#software {
+  padding-top: 60px;
+  background-color: #E76659;
+}
+
 #software h1 {
  text-align: center;
  padding-bottom: 20px;
@@ -195,21 +258,32 @@ a:visited {
 }
 
 #samples {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction:row;
-  justify-content: space-around;;
-  padding: 75px;
+  font-size: 1.2em;
+  text-align:center;
+  padding: 70px;
+  margin:auto;
+  background-color: #2980B9;
+}
+
+#samples h1 {
+  padding-bottom: 5%;
+}
+
+#samples_info {
+  font-size: 1.2em;
+  text-align:center;
+  padding: 50px;
   margin:auto;
   background-color: #E76659;
 }
 
-#samples h1 {
-  padding-bottom: 20px;
+#samples_info img {
+  padding: 15px;
+  border-radius: 15px;
 }
 
 #footer {
-  background-color: #2980B9;
+  background-color: #23A5D4;
   padding-top: 5%;
 }
 
@@ -222,4 +296,16 @@ a:visited {
   margin-top: 3%;
   padding-bottom: 5%;
   background color: red;
+}
+
+@media (min-width: 768px) {
+  .modal-xl {
+    width: 100%;
+   max-width:1400px;
+  }
+}
+
+#street {
+  width:100%;
+    height: 100%;
 }
