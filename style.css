@@ -6,13 +6,41 @@
 @import url('https://fonts.googleapis.com/css?family=PT+Sans');
 @import url('https://fonts.googleapis.com/css?family=Francois+One');
 
-html {
-  
-}
-
 body {
   background-color:;
 }
+
+@media (max-width: 576px) {
+    body .jumbotron h1 {
+      font-size: 8vh;
+    }
+}
+
+@media (max-width: 576px) {
+    #samples h1 {
+      font-size: 6vh;
+    }
+}
+
+@media (max-width: 576px) {
+    figure {
+      font-size: 1.7vh;
+    }
+}
+
+@media (min-width: 768px) {
+  .modal-xl {
+    width: 100%;
+   max-width:1400px;
+  }
+}
+
+@media (max-width: 576px) {
+    body #h1_info {
+      font-size: 7vh;
+    }
+}
+
 
 h1 {
   font-family: 'Alegreya Sans SC', sans-serif;
@@ -131,10 +159,31 @@ a:visited {
   font-style: bold;
 }
 
-@media (max-width: @screen-sm) {
-    .jumbotron h1 {
-      font-size: 7vh;
-    }
+.btn-primary {
+    color: #2980B9;
+    background-color: #2980B9;
+    border-color: #2980B9;
+}
+
+.header {
+  margin-top: -15px;
+  padding-bottom: 10px;
+  font-size: 1.5em;
+}
+
+.fig {
+  padding-left: 10%;
+  padding-bottom: 1%;
+  font-size: 1em;
+  text-align: left;
+}
+
+figure {
+  padding-bottom: 5%;
+}
+
+.graphic_text {
+  padding-top: 40px;
 }
 
 
@@ -296,13 +345,6 @@ a:visited {
   margin-top: 3%;
   padding-bottom: 5%;
   background color: red;
-}
-
-@media (min-width: 768px) {
-  .modal-xl {
-    width: 100%;
-   max-width:1400px;
-  }
 }
 
 #street {
