@@ -147,12 +147,33 @@ a:visited {
 }
 
 .jumbotron {
-  background-image: url("images/main2.jpg");
+  background-image: url("../images/main2.jpg");
   background-size: cover;
   display:flex;
   align-items: center;
   color: white;
 }
+
+.examples {
+
+  margin: 0px 15%;
+}
+
+.examples_music {
+
+    margin: 0px 22%;
+}
+
+.examples_merry {
+
+    margin: 0px 8%;
+}
+
+.img-fluid {
+
+  max-width: 100%;
+  height: auto;
+  }
 
 .jumbotron h1 {
   font-size: 9vh;
