@@ -238,6 +238,10 @@ figure {
   position: absolute;
 }
 
+.btnPortfolio {
+  padding-top: 2%;
+}
+
 .social i {
   padding: 20px 10px 20px 10px;
 }
@@ -332,7 +336,7 @@ figure {
   text-align:center;
   padding: 70px;
   margin:auto;
-  background-color: #2980B9;
+  background-color: #024059;
 }
 
 #samples h1 {
@@ -344,7 +348,7 @@ figure {
   text-align:center;
   padding: 50px;
   margin:auto;
-  background-color: #E76659;
+  background-color: #024059;
 }
 
 #samples_info img {
